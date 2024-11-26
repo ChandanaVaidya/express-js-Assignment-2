@@ -16,7 +16,7 @@ GET http://localhost:8000/123?name=alice
 ```
 {
   "path_param": "123",
-  "query_param": "Alice"
+  "query_param": "alice"
 }
 ```
 
