@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const port = 8000;
 
-// Parse json
+// Parse json middleware
 app.use(express.json());
 
 // get api with query and path param
@@ -29,7 +29,7 @@ app.post('/data', (req, res) => {
 
 });
 
-// Start the server
+// Starting server
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
 });
